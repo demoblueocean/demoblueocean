@@ -6,10 +6,5 @@ pipeline {
         echo 'first step of the pipe'
       }
     }
-    stage('Testing') {
-      steps {
-        sh 'echo PATH = ${PATH}'
-      }
-    }
   }
 }
